@@ -1,0 +1,18 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Organizer-provided assets are downloaded and verified by the notebook.
+data/
+metrics/
+УСЛОВИЯ*
+~$*
+
+# Training artifacts must be reproduced inside the notebook, not committed.
+checkpoints/
+outputs/
+artifacts/
+*.safetensors
+*.bin
+*.pt
